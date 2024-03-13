@@ -1,0 +1,4 @@
+config.py
+hosts.yml
+myenv_1/*
+__pycache__/*
