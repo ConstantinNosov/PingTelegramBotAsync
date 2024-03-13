@@ -25,7 +25,6 @@ async def main():
     asyncio.create_task(daily_notification(bot))
     while True:
         await ip_test(bot)
-        # Проверка каждые 5 минут
         await asyncio.sleep(900)  # Интервал опроса хостов в секундах
 
 if __name__ == "__main__":
